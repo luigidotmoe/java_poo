@@ -56,4 +56,14 @@ public class Vehicule {
             return "C'est un autre type de véhicule";
         }
     }
+
+    public String plusRapide(Vehicule vehicule){
+        if (this.vitesse > vehicule.vitesse){
+            return "Le véhicule le plus rapide est le véhicule " + this.type + " avec une vitesse de " + this.vitesse + " km/h";
+        } else if (this.vitesse < vehicule.vitesse){
+            return "Le véhicule le plus rapide est le véhicule " + vehicule.type + " avec une vitesse de " + vehicule.vitesse + " km/h";
+        } else {
+            return "Les deux véhicules ont la même vitesse";
+        }
+    }
 }

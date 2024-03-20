@@ -24,5 +24,7 @@ public class Main {
         System.out.println("Le véhicule " + vehicule2.getType() + " possède une vitesse de " + vehicule2.getVitesse() + " km/h");
         System.out.println("Le véhicule " + vehicule3.getType() + " possède une vitesse de " + vehicule3.getVitesse() + " km/h");
         System.out.println("Le véhicule " + vehicule4.getType() + " possède une vitesse de " + vehicule4.getVitesse() + " km/h");
+
+        System.out.println(vehicule1.plusRapide(vehicule2));
     }
 }
